@@ -1,0 +1,6 @@
+if SHIELD_J40
+
+config ZMK_KEYBOARD_NAME
+    default "j40"
+
+endif # SHIELD_J40
