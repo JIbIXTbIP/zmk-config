@@ -32,3 +32,16 @@
         };
     };
 };
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+
+        studio_unlock_combo {
+            timeout-ms = <50>;        // можно 30–60
+            key-positions = <12 10>;
+            bindings = <&studio_unlock>;
+        };
+    };
+};
+
